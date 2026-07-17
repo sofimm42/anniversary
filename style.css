@@ -336,7 +336,7 @@ body {
 
     width: 520px;
 
-    height: 720px;
+    height:720px;
 
     margin: 70px auto;
 
@@ -495,124 +495,45 @@ body {
 
 }
 
-
-/* decorations */
-
-.decor {
-    height: 150px;
-
-    display: flex;
-
-    align-items: flex-end;
-
-    justify-content: center;
-
-    margin-bottom: 15px;
+.spine::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 3px;
+    background: rgba(255,255,255,0.35);
 }
 
-
-/* flower vase */
-
-.vase {
-
-    width: 55px;
-
-    height: 75px;
-
-    background: #D8B4A0;
-
-    border-radius:
-        10px 10px 25px 25px;
-
-    position: relative;
-
-    box-shadow:
-        5px 5px 10px rgba(0,0,0,.25);
-
+.spine::after {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    height: 3px;
+    background: rgba(255,255,255,0.35);
 }
 
-
-/* flower stem */
-
-.vase::before {
-
-    content:"";
-
-    position:absolute;
-
-    width:8px;
-
-    height:45px;
-
-    background:#6B8E6B;
-
-    top:-40px;
-
-    left:24px;
-
+.spine span {
+    letter-spacing: 2px;
+    font-size: 1.4rem;
 }
 
-
-/* flower head */
-
-.flower {
-
-    width:18px;
-
-    height:18px;
-
-    background:#C97B84;
-
-    border-radius:50%;
-
-    position:absolute;
-
-    top:-55px;
-
-    left:19px;
-
+.spine::before,
+.spine::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    height: 3px;
+    background: #D8B56A;
 }
 
-
-/* candle */
-
-.candle {
-
-    width:35px;
-
-    height:85px;
-
-    background:#F7F0E3;
-
-    border-radius:6px;
-
-    position:relative;
-
-    box-shadow:
-
-        5px 5px 10px rgba(0,0,0,.25);
-
+.spine::before {
+    top: 10px;
 }
 
-
-/* candle flame */
-
-.candle::before {
-
-    content:"";
-
-    position:absolute;
-
-    width:15px;
-
-    height:25px;
-
-    background:#D8A34D;
-
-    border-radius:50%;
-
-    top:-25px;
-
-    left:10px;
-
+.spine::after {
+    bottom: 10px;
 }
