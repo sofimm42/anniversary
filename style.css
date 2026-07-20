@@ -248,7 +248,7 @@ audio {
     padding: 25px;
 
     font-family: "Caveat", cursive;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #5B4634;
 }
 
@@ -606,6 +606,10 @@ body {
         font-size:1.3rem;
     }
 
+    .polaroid-back {
+    font-size: 1.4rem;
+}
+
     /* Ticker */
 
     .ticker-track span{
@@ -624,7 +628,7 @@ body {
     }
 
     .shelf-row{
-        justify-content:center;
+        justify-content:flex-start;
         gap:10px;
         height:150px;
         padding:0 5px 15px;
