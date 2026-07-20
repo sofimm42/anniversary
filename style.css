@@ -538,74 +538,79 @@ body {
     bottom: 10px;
 }
 
+/* ===========================
+   MOBILE
+=========================== */
+
 @media (max-width: 768px) {
 
+    /* Navigation */
     nav {
-
         width: 95%;
-
         left: 50%;
-
         transform: translateX(-50%);
-
-        gap: 4px;
-
         padding: 8px;
-
+        gap: 4px;
         flex-wrap: wrap;
-
         justify-content: center;
-
     }
 
     nav a {
-
         font-size: .9rem;
-
         padding: 6px 10px;
-
     }
 
-}
+    /* Header */
+    header {
+        width: 95%;
+        margin-top: 130px;
+        padding: 35px 20px;
+    }
 
-@media (max-width:768px){
+    h1 {
+        font-size: 2rem;
+    }
 
-.gallery{
+    .cover-photo {
+        width: 180px;
+    }
 
-    grid-template-columns:1fr;
+    /* Gallery */
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
 
-    gap:60px;
+    .polaroid {
+        width: 220px;
+    }
 
-}
+    .caption {
+        font-size: 1.4rem;
+    }
 
-}
+    /* Ticker */
+    .ticker-track span {
+        font-size: 20px;
+        padding-right: 50px;
+    }
 
-.polaroid{
+    /* Bookcase */
+    .bookcase {
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
 
-    width:190px;
+    .shelf-row {
+        height: 170px;
+        padding: 0 10px 18px;
+    }
 
-}
-
-@media(max-width:768px){
-
-.bookcase{
-
-width:95%;
-
-height:auto;
-
-padding:20px;
-
-}
-
-}
-
-.spine{
-
-width:38px;
-
-height:130px;
-
-font-size:1rem;
+    .spine {
+        width: 40px;
+        height: 130px;
+        font-size: .95rem;
+    }
 
 }
