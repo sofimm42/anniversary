@@ -516,8 +516,9 @@ body {
 }
 
 .spine span {
-    letter-spacing: 2px;
-    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    white-space: nowrap;
 }
 
 .spine::before,
@@ -547,10 +548,12 @@ body {
     /* Navigation */
 
     nav{
-        width:96%;
+        width: auto;
+        max-width:96%;
         padding:8px;
         gap:6px;
 
+        display: flex;
         justify-content:flex-start;
         flex-wrap:nowrap;
 
@@ -635,8 +638,8 @@ body {
     }
 
     .spine{
-        width:30px;
-        height:105px;
+        width:45px;
+        height:120px;
         font-size:.75rem;
     }
 
