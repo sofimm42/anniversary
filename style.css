@@ -245,11 +245,15 @@ audio {
     justify-content: center;
     text-align: center;
 
-    padding: 25px;
+    padding: 12px;
 
     font-family: "Caveat", cursive;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     color: #5B4634;
+}
+
+.polaroid-back p {
+    font-size: 1.8rem;
 }
 
 .counter {
@@ -517,7 +521,7 @@ body {
 
 .spine span {
     letter-spacing: 1px;
-    font-size: 0.75rem;
+    font-size: 1.4rem;
     white-space: nowrap;
 }
 
@@ -642,5 +646,11 @@ body {
         height:120px;
         font-size:.75rem;
     }
+
+    .spine span {
+    letter-spacing: 0;
+    font-size: 0.6rem;
+    white-space: nowrap;
+}
 
 }
